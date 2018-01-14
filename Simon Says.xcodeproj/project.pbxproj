@@ -14,6 +14,7 @@
 		29CC1AA7200AA797000D2ABF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29CC1AA5200AA797000D2ABF /* LaunchScreen.storyboard */; };
 		29CC1AB2200AA797000D2ABF /* Simon_SaysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CC1AB1200AA797000D2ABF /* Simon_SaysTests.swift */; };
 		29CC1ABD200AA797000D2ABF /* Simon_SaysUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CC1ABC200AA797000D2ABF /* Simon_SaysUITests.swift */; };
+		29CC1ACB200AB13B000D2ABF /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CC1ACA200AB13B000D2ABF /* RoundButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		29CC1AB8200AA797000D2ABF /* Simon SaysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simon SaysUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29CC1ABC200AA797000D2ABF /* Simon_SaysUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simon_SaysUITests.swift; sourceTree = "<group>"; };
 		29CC1ABE200AA797000D2ABF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29CC1ACA200AB13B000D2ABF /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		29CC1A9B200AA797000D2ABF /* Simon Says */ = {
 			isa = PBXGroup;
 			children = (
+				29CC1ACC200AB140000D2ABF /* buttons */,
 				29CC1A9C200AA797000D2ABF /* AppDelegate.swift */,
 				29CC1A9E200AA797000D2ABF /* ViewController.swift */,
 				29CC1AA0200AA797000D2ABF /* Main.storyboard */,
@@ -123,6 +126,15 @@
 				29CC1ABE200AA797000D2ABF /* Info.plist */,
 			);
 			path = "Simon SaysUITests";
+			sourceTree = "<group>";
+		};
+		29CC1ACC200AB140000D2ABF /* buttons */ = {
+			isa = PBXGroup;
+			children = (
+				29CC1ACA200AB13B000D2ABF /* RoundButton.swift */,
+			);
+			name = buttons;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29CC1ACB200AB13B000D2ABF /* RoundButton.swift in Sources */,
 				29CC1A9F200AA797000D2ABF /* ViewController.swift in Sources */,
 				29CC1A9D200AA797000D2ABF /* AppDelegate.swift in Sources */,
 			);
